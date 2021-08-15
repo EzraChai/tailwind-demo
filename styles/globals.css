@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+body{
+    @apply bg-gray-200;
+}
+
+.btn{
+    @apply inline-block px-5 py-3 shadow-lg rounded uppercase tracking-wider font-bold text-sm transition-all;
+}
+
+.svg{
+    @apply h-3 w-3 fill-current
+}
+
+@tailwind utilities;
